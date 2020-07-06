@@ -1,0 +1,207 @@
+.header_heading::before, .section_text::after, .section_banner_heading::after {
+  content: '';
+  position: absolute;
+  background-color: #14a0c7;
+  z-index: -1; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #FFFFFF; }
+
+.header {
+  background-image: url(../img/m-h-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  display: flex;
+  max-width: 1920px;
+  min-height: 900px;
+  border-radius: 0 0 40% 0 / 40%;
+  padding: 25px 192px 0 192px; }
+  .header a {
+    color: #FFFFFF;
+    font-size: 25px; }
+  .header-wrap {
+    z-index: 1; }
+  .header_heading {
+    width: 50%;
+    margin-top: 100px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 90px;
+    color: #2c2f3c;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 90px; }
+    .header_heading::before {
+      width: 380px;
+      height: 60px;
+      top: 287px; }
+  .header_text {
+    padding-top: 40px;
+    font-family: "Hind", sans-serif;
+    color: #2c2f3c;
+    font-size: 20px;
+    white-space: pre-line;
+    line-height: 30px; }
+  .header_button {
+    margin-top: 80px;
+    margin-right: 190px;
+    background-color: #699900;
+    padding: 20px 55px;
+    border: none;
+    color: #f2f3f7;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    outline: none;
+    font-weight: bold;
+    transition: all 0.1s; }
+    .header_button:hover {
+      cursor: pointer;
+      background-color: #507303; }
+    .header_button:active {
+      box-shadow: inset 0 0 24px -1px #415516; }
+
+.landing-logo img {
+  float: left; }
+.landing-logo p {
+  margin-left: 20px;
+  font-family: "Hind", sans-serif;
+  font-size: 30px;
+  color: #2c2f3c;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 5px; }
+.landing-logo span {
+  display: block;
+  font-size: 10px;
+  text-align: center; }
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1; }
+  .section_text {
+    margin: 40px 0 45px 0;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 50px;
+    color: #2c2f3c;
+    font-weight: 600;
+    position: relative; }
+  .section_text::after {
+    width: 240px;
+    height: 60px;
+    left: 52%; }
+  .section_card_wrap {
+    width: 1130px;
+    display: flex;
+    flex-direction: column; }
+  .section_banner {
+    position: relative;
+    width: 1200px;
+    height: 180px;
+    top: 90px;
+    border-radius: 8px;
+    background-image: linear-gradient(-90deg, #2c5adb, #699900);
+    padding: 0 125px;
+    z-index: 1; }
+    .section_banner_text_wrap {
+      display: inline-block;
+      position: relative;
+      line-height: 55px;
+      top: 15%; }
+    .section_banner_heading {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 36px;
+      color: #2c2f3c;
+      font-weight: bold; }
+    .section_banner_heading::after {
+      width: 80px;
+      height: 60px;
+      top: -10%;
+      left: 29%; }
+    .section_banner_text {
+      font-family: "Hind", sans-serif;
+      font-size: 20px;
+      color: #abc3ce; }
+    .section_banner_button {
+      background-color: #699900;
+      padding: 20px 55px;
+      border: none;
+      color: #f2f3f7;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 22px;
+      outline: none;
+      font-weight: bold;
+      transition: all 0.1s;
+      float: right;
+      position: relative;
+      top: 35%; }
+      .section_banner_button:hover {
+        cursor: pointer;
+        background-color: #507303; }
+      .section_banner_button:active {
+        box-shadow: inset 0 0 24px -1px #415516; }
+  .section_card {
+    margin: 15px 0 15px 0;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #21232e;
+    display: flex; }
+    .section_card_img {
+      width: 100%;
+      height: 300px;
+      border-radius: 8px; }
+    .section_card_right_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 125px 0 100px; }
+      .section_card_right_container a {
+        color: #d1d1d1;
+        font-size: 20px; }
+    .section_card_heading {
+      padding-top: 50px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 25px;
+      font-weight: 600;
+      color: #ffffff;
+      position: relative; }
+    .section_card_text {
+      padding: 30px 0 30px 0;
+      font-family: "Hind", sans-serif;
+      font-size: 20px;
+      color: #c0c3ce;
+      line-height: 30px; }
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #21232e;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 75px; }
+  .footer-wrap {
+    width: 1480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Hind", sans-serif;
+    font-size: 20px;
+    color: #bfc1cc; }
+  .footer_logo p {
+    color: #bfc1cc; }
+  .footer_text {
+    max-width: 30%; }

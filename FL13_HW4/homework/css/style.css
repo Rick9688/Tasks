@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.caption {
+    text-transform: uppercase;
+    color: #777;
+    font-size: medium;
+    letter-spacing: 3px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation li {
+    margin: 0 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #777;
+}
+
+.nav-link:hover {
+    color: #bfba55;
+}
+
+.main  {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/home-bg.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: large;
+    margin-bottom: 80px;
+}
+
+.logo_button {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 9px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-weight: bolder;
+    color: #777;
+    border-radius: 100px;
+    width: 180px;
+    height: 40px;
+    letter-spacing: 1px;
+}
+
+.logo_button:hover {
+    background: #EBE9E9;
+}
+
+.round {
+    border-radius: 50%; 
+    border: 1px  black; 
+    box-shadow: 0 0 7px #666;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.logo_sign1 {
+    font-size: 50px;
+}
+
+.logo_sign2 {
+    color: #bfba55;
+    letter-spacing: 3px;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment p:not(.fa) {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.parts__caption {
+    text-align: left;
+}
+
+
+.button {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-weight: bold;
+    color: #777;
+    border-radius: 100px;
+    width: 180px;
+    height: 40px;
+} 
+
+.button:hover {
+    background:#EBE9E9;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    color: #777;
+    }
+
+    .content h2 {
+        color: #000000;
+    }
+
+.parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 100px;
+}
+
+.footer {
+ display: flex;
+ justify-content: space-around;
+ flex-direction: row;
+ align-items: center;
+ background-color: black;
+ color: #777;
+ margin-top: 100px;
+ height: 300px;
+ font-size: 13px;
+ 
+}
+
+.footer h2 {
+    color: #fff;
+}
+
+.info {
+    width: 400px;
+}
+
+
+
+
+
+
+
+

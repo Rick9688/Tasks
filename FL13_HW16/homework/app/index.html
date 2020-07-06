@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles/index.css">
+  <title>UserList</title>
+</head>
+
+<body>
+  <div id="app-container">
+    <div class="head">
+      <h1>Manage User App</h1>
+      <form name="create">
+        <input type="text" id="name" class="form-name" name="name" placeholder="Name">
+        <input type="text" id="username" class="form-name" name="userName" placeholder="Username">
+        <input type="submit" value="Add New User" class="form-submit">
+      </form>
+    </div>
+    <div class="list-app">
+      <table>
+        <thead>
+          <tr>
+            <th>userID</th>
+            <th>userName</th>
+            <th>userNicname</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="entrypoint"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

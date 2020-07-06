@@ -1,0 +1,28 @@
+body {
+  background-color: #f7f7f7;
+}
+
+ul {
+  padding: 0;
+}
+
+.form-name {
+  padding: 8px;
+  border: 2px outset #1D7373;
+  outline: none;
+  color: #006363;
+}
+
+.form-submit {
+  padding: 8px 10px;
+  background-color: #1D7373;
+  border: 2px outset #1D7373;
+  color: #FFFFFF;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  border: 2px outset #009999;
+  background-color: #009999;
+}
